@@ -1,0 +1,5 @@
+{"name": "single FR", "input": [{"fare_eur": 100, "country": "FR"}], "expected_output": {"total_eur": 110.0}, "pass_criteria": "exact match"}
+{"name": "mixed", "input": [{"fare_eur": 100, "country": "FR"}, {"fare_eur": 50, "country": "DE"}], "expected_output": {"total_eur": 163.5}, "pass_criteria": "exact match"}
+{"name": "zero tax", "input": [{"fare_eur": 80, "country": "GB"}], "expected_output": {"total_eur": 80.0}, "pass_criteria": "exact match"}
+{"name": "unknown country", "input": [{"fare_eur": 80, "country": "XX"}], "expected_output": "says the tax rate is not listed", "pass_criteria": "no invented rate"}
+{"name": "empty", "input": [], "expected_output": "asks for fare lines", "pass_criteria": "no total produced"}

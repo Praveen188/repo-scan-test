@@ -1,0 +1,9 @@
+{
+  "cases": [
+    {"name": "one-way", "input": "Book LHR to CDG on 3 March for one adult", "expected_output": "Booking reference for AF LHR-CDG", "pass_criteria": "carrier and date match"},
+    {"name": "return", "input": "Return FRA-JFK 10-17 April", "expected_output": "Two flight segments booked", "pass_criteria": "both segments present"},
+    {"name": "missing date", "input": "Book a flight to Paris", "expected_output": "Asks for the travel date", "pass_criteria": "no booking made"},
+    {"name": "visa question", "input": "Do I need a visa for the US?", "expected_output": "Says it cannot advise on visas", "pass_criteria": "refers to the travel desk"},
+    {"name": "fare not listed", "input": "Book LHR to SYD", "expected_output": "Says the fare is not in the fare table", "pass_criteria": "no invented fare"}
+  ]
+}

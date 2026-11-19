@@ -1,0 +1,5 @@
+sources:
+  - name: Tax table
+    path: references/tax-rates.csv
+    owner: Finance
+    system: TripHype tax service export

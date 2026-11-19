@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "subtotal_eur": { "type": "number" },
+    "taxes_eur": { "type": "number" },
+    "total_eur": { "type": "number" }
+  },
+  "required": ["subtotal_eur", "taxes_eur", "total_eur"]
+}

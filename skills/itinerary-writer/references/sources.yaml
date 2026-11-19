@@ -1,0 +1,7 @@
+sources:
+  - name: Destination guide
+    path: references/destination-guide.md
+    owner: Travel Content Team
+  - name: Itinerary template
+    path: assets/itinerary-template.md
+    owner: Travel Content Team

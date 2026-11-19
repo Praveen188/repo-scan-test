@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Itinerary request",
+  "type": "object",
+  "properties": {
+    "destination": { "type": "string" },
+    "start_date": { "type": "string", "format": "date" },
+    "end_date": { "type": "string", "format": "date" },
+    "interests": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["destination", "start_date", "end_date"]
+}

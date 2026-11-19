@@ -1,0 +1,8 @@
+sources:
+  - name: Fare table
+    path: references/fares.csv
+    owner: Travel Platform Team
+    system: TripHype fare service export
+  - name: Booking policy
+    path: references/booking-policy.md
+    owner: Travel Desk

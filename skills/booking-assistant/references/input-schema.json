@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Booking request",
+  "type": "object",
+  "properties": {
+    "traveller_name": { "type": "string", "description": "Full name of the traveller as on the passport" },
+    "email": { "type": "string", "format": "email" },
+    "passport_number": { "type": "string" },
+    "outbound_date": { "type": "string", "format": "date" },
+    "destination": { "type": "string" }
+  },
+  "required": ["traveller_name", "email", "passport_number", "outbound_date", "destination"]
+}

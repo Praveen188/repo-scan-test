@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Itinerary",
+  "type": "object",
+  "properties": {
+    "itinerary_markdown": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["itinerary_markdown", "sources"]
+}

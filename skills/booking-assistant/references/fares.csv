@@ -1,0 +1,4 @@
+origin,destination,carrier,fare_eur
+LHR,CDG,AF,129.00
+LHR,CDG,BA,141.50
+FRA,JFK,LH,612.00

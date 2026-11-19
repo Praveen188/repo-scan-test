@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Booking result",
+  "type": "object",
+  "properties": {
+    "booking_reference": { "type": "string" },
+    "recommended_option": { "type": "string", "enum": ["cheapest", "fastest", "flexible"] },
+    "total_eur": { "type": "number" }
+  },
+  "required": ["booking_reference", "recommended_option"]
+}
